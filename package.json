@@ -7,8 +7,8 @@
     "scripts": {
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
-        "dev": "vite",
-        "build": "tsc && vite build",
+        "dev": "bunx --bun vite",
+        "build": "tsc && bunx --bun vite build",
         "preview": "vite preview"
     },
     "dependencies": {
