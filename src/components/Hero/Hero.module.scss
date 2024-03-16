@@ -1,28 +1,28 @@
-@import '../../vars.scss';
+@use '../../vars';
+
 .container {
     position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 49px;
+    margin-top: 4rem;
     z-index: 1;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0 3.5rem;
 }
 
 .content {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    color: var(--color-text);
+    color: vars.$color-text;
     z-index: 1;
 }
 
 .title {
-    font-size: 72px;
+    font-size: 6rem;
     font-weight: 900;
-    margin-bottom: 33px;
-    font-family: var(--font-roboto);
+    margin-bottom: 2.7rem;
+    font-family: vars.$font-roboto;
     background: linear-gradient(
         90deg,
         rgba(255, 255, 255, 1) 70%,
@@ -35,19 +35,19 @@
 }
 
 .description {
-    font-size: 30px;
-    font-family: var(--font-roboto);
-    margin-bottom: 52px;
+    font-size: 2.5rem;
+    font-family: vars.$font-roboto;
+    margin-bottom: 4.2rem;
 }
 
 .contactBtn {
     text-decoration: none;
-    background-color: var(--color-primary);
-    color: var(--color-text);
+    background-color: vars.$color-primary;
+    color: vars.$color-text;
     border-radius: 100px;
     font-size: 30px;
     font-weight: 600;
-    padding: 17px 26px;
+    padding: 1.5rem 2rem;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 }
 
@@ -65,12 +65,12 @@
     position: absolute;
     width: 50vw;
     height: 50vh;
-    min-width: 350px;
-    top: -128px;
+    min-width: 30rem;
+    top: -5.5rem;
     left: -10vw;
-    border-radius: 764px;
+    border-radius: 9rem;
     background-color: rgba(25, 55, 109, 0.7);
-    filter: blur(100px);
+    filter: blur(8rem);
     z-index: 0;
 }
 
@@ -78,17 +78,17 @@
     position: absolute;
     width: 70vw;
     height: 50vh;
-    min-width: 350px;
-    min-width: 250px;
-    top: -128px;
+    min-width: 30rem;
+    min-width: 25rem;
+    top: -4.4rem;
     left: -10vw;
-    border-radius: 764px;
+    border-radius: 9rem;
     background-color: rgba(25, 55, 109, 0.7);
-    filter: blur(100px);
+    filter: blur(8rem);
     z-index: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: vars.$mobile) {
     .container {
         flex-direction: column-reverse;
     }

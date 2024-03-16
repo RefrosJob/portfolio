@@ -1,5 +1,6 @@
 import { JSX } from 'preact/jsx-runtime';
 import { getImageUrl } from '../../utils';
+
 import styles from './About.module.scss';
 
 export function About(): JSX.Element {

@@ -1,17 +1,14 @@
 import { JSX } from 'preact/jsx-runtime';
-
-import styles from './NavBar.module.scss';
 import { getImageUrl } from '../../utils';
 import { useState } from 'preact/hooks';
+
+import styles from './NavBar.module.scss';
 
 export default function NavBar(): JSX.Element {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
         <nav className={styles.navbar}>
-            <a className={styles.title} href="/">
-                Portfolio
-            </a>
             <div className={styles.menu}>
                 <img
                     className={styles.menuBtn}
@@ -38,6 +35,9 @@ export default function NavBar(): JSX.Element {
                     </li>
                 </ul>
             </div>
+            <a className={styles.title} href="/">
+                Portfolio
+            </a>
         </nav>
     );
 }
