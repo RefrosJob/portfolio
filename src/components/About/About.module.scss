@@ -21,18 +21,29 @@
 .content {
     display: flex;
     flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 .aboutImage {
+    margin: 1rem 0;
+    image-rendering: crisp-edges;
+    border-radius: 1rem;
     width: 28rem;
 }
 
 .aboutItems {
     color: vars.$color-text;
     display: flex;
+
     flex-direction: column;
-    gap: 5rem;
+    gap: 1.2rem;
 }
 
 .aboutItem {
@@ -40,7 +51,6 @@
     flex-direction: row;
     align-items: center;
     border-radius: 1.2rem;
-    list-style: none;
     padding: 1.8rem;
     background-image: linear-gradient(
         90deg,
@@ -81,7 +91,7 @@
     }
 
     .aboutItem {
-        padding-left: 0;
+        padding-left: 1rem;
         padding-right: 0;
     }
 }

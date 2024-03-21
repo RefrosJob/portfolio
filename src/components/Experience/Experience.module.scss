@@ -61,7 +61,7 @@
 }
 
 .history {
-    width: 40rem;
+    width: 50rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -72,13 +72,17 @@
     flex-direction: row;
     align-items: center;
     gap: 1.5rem;
-    background: #19376d;
-    background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+    background: vars.$color-secondary;
+    background: linear-gradient(
+        90deg,
+        vars.$color-secondary 0%,
+        rgba(25, 55, 109, 0) 100%
+    );
     border-radius: 1rem;
     padding: 1.5rem;
 
     img {
-        width: 3.5rem;
+        width: 5rem;
     }
 
     div {

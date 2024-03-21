@@ -4,7 +4,11 @@
     display: flex;
     flex-direction: column;
     border-radius: 1rem;
-    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+    background: linear-gradient(
+        180deg,
+        vars.$color-primary 0%,
+        vars.$color-secondary 100%
+    );
     box-shadow: 0 1.2rem 1.4rem 0 #04152d;
     padding: 1.8rem 2.4rem;
     max-width: 345px;
@@ -12,6 +16,8 @@
 
 .image {
     margin-bottom: 2.6rem;
+    border-radius: 0.2rem;
+    image-rendering: crisp-edges;
 }
 
 .title {

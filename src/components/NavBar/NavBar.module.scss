@@ -41,6 +41,28 @@
         margin: 0 2rem;
     }
 
+    .menuContainer {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        height: 100vh;
+        z-index: 1;
+        left: -15rem;
+        top: 0;
+        position: fixed;
+        gap: 13px;
+        background: rgb(25, 55, 109);
+        background: linear-gradient(
+            0deg,
+            rgba(25, 55, 109, 0.2) 0%,
+            rgba(25, 55, 109, 1) 100%
+        );
+        padding: 24px 33px;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0.25);
+        -webkit-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+    }
+
     .menu {
         flex-direction: column;
         align-items: flex-end;
@@ -55,26 +77,16 @@
     }
 
     .menuItems {
-        display: none;
         flex-direction: column;
         align-items: center;
-        gap: 13px;
-        border-radius: 10px;
-        background: rgb(25, 55, 109);
-        background: linear-gradient(
-            0deg,
-            rgba(25, 55, 109, 0.2) 0%,
-            rgba(25, 55, 109, 1) 100%
-        );
-        padding: 24px 33px;
-        box-shadow: 0 0 4px 0 rgba(0, 0, 0.25);
+        transition: all 0.2s ease-out;
     }
 
     .menuOpen {
-        position: absolute;
-        left: 0px;
-        margin-left: 10%;
-        display: flex;
+        position: fixed;
+        left: 0;
+        top: 0;
+        margin: 0;
         z-index: 1;
     }
 }

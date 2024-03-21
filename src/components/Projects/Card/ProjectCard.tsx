@@ -10,7 +10,6 @@ interface Props {
         imageSrc: string;
         description: string;
         skills: string[];
-        demo: string;
         source: string;
     };
 }
@@ -33,9 +32,6 @@ export function ProjectCard({ id, project }: Props): JSX.Element {
                 ))}
             </ul>
             <div className={styles.links}>
-                <a href={project.demo} className={styles.link}>
-                    Demo
-                </a>
                 <a href={project.source} className={styles.link}>
                     Source
                 </a>

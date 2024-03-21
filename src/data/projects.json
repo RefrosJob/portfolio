@@ -1,26 +1,9 @@
 [
     {
-        "title": "Project A",
-        "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
-        "skills": ["React", "Express", "Node"],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
-    },
-    {
-        "title": "Project B",
-        "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
-        "skills": ["React", "Express", "Node", "Sass"],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
-    },
-    {
-        "title": "Project C",
-        "imageSrc": "projects/project.png",
-        "description": "This is a project made to learn the latest languages by building an app.",
-        "skills": ["React", "Express", "Node"],
-        "demo": "https://www.example.com",
-        "source": "https://www.github.com"
+        "title": "Portfolio",
+        "imageSrc": "projects/portfolio.png",
+        "description": "This here portfolio. Was made for showcasing some of my abilities as well as practicing my CSS and Preact skills.",
+        "skills": ["PReact", "SCSS", "Node"],
+        "source": "https://github.com/RefrosJob/refrosjob.github.io"
     }
 ]

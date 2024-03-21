@@ -25,7 +25,7 @@
     font-family: vars.$font-roboto;
     background: linear-gradient(
         90deg,
-        rgba(255, 255, 255, 1) 70%,
+        rgb(255, 255, 255) 70%,
         rgba(255, 255, 255, 0) 120%
     );
     background-clip: border-box;
@@ -51,10 +51,19 @@
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-.heroImg {
-    width: 50%;
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45rem;
+    width: 50rem;
     z-index: 1;
+}
 
+.heroImg {
+    image-rendering: crisp-edges;
+    height: 28rem;
+    filter: blur(0.003rem);
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -69,7 +78,7 @@
     top: -5.5rem;
     left: -10vw;
     border-radius: 9rem;
-    background-color: rgba(25, 55, 109, 0.7);
+    background-color: rgba(23, 99, 93, 0.7);
     filter: blur(8rem);
     z-index: 0;
 }
@@ -83,7 +92,7 @@
     top: -4.4rem;
     left: -10vw;
     border-radius: 9rem;
-    background-color: rgba(25, 55, 109, 0.7);
+    background-color: rgba(23, 99, 93, 0.7);
     filter: blur(8rem);
     z-index: 0;
 }

@@ -23,7 +23,9 @@ export function Contact(): JSX.Element {
                         src={getImageUrl('contact/linkedinIcon.png')}
                         alt="LinkedIn Icon"
                     />
-                    <a href="https://www.linkedin.com">linkedIn.com</a>
+                    <a href="https://www.linkedin.com/in/robert-efros-67ab95217/">
+                        linkedIn.com/robert-efros
+                    </a>
                 </li>
                 <li className={styles.link}>
                     <img

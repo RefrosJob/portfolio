@@ -19,11 +19,19 @@ export default function Hero(): JSX.Element {
                     Contact Me!
                 </a>
             </div>
-            <img
-                src={getImageUrl('hero/heroImage.png')}
+            <div className={styles.imgContainer}>
+                <img
+                    src={getImageUrl('hero/myImage.png')}
+                    alt="Hero"
+                    className={styles.heroImg}
+                />
+            </div>
+            {/* <img
+                src={getImageUrl('hero/myImage.png')}
                 alt="Hero"
                 className={styles.heroImg}
-            />
+            /> */}
+
             <div className={styles.topBlur} />
             <div className={styles.bottomBlur} />
         </section>
