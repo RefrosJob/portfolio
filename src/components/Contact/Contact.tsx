@@ -5,7 +5,7 @@ import styles from './Contact.module.scss';
 
 export function Contact(): JSX.Element {
     return (
-        <footer className={styles.container}>
+        <footer className={styles.container} id="contacts">
             <div className={styles.text}>
                 <h2>Contact</h2>
                 <p>Feel free to reach out</p>

@@ -11,7 +11,7 @@ export function About(): JSX.Element {
                 <img
                     src={getImageUrl('about/aboutImage.png')}
                     alt="Me sitting with laptop"
-                    className={styles.aboutImg}
+                    className={styles.aboutImage}
                 />
                 <ul className={styles.aboutItems}>
                     <li className={styles.aboutItem}>

@@ -13,9 +13,9 @@ export function App(): JSX.Element {
             <NavBar />
             <Hero />
             <About />
-            {/* <Experience />
+            <Experience />
             <Projects />
-            <Contact /> */}
+            <Contact />
         </div>
     );
 }
