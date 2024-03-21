@@ -32,7 +32,7 @@ export function Contact(): JSX.Element {
                         src={getImageUrl('contact/githubIcon.png')}
                         alt="GitHub Icon"
                     />
-                    <a href="https://github.com/refrosjob">refrosJob</a>
+                    <a href="https://github.com/refrosjob">GitHub/RefrosJob</a>
                 </li>
             </ul>
         </footer>
