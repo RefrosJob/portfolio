@@ -11,6 +11,19 @@
 
 html {
     scroll-behavior: smooth;
+    ::-webkit-scrollbar {
+        width: 0.4rem;
+        background: rgba(0, 0, 0, 0) 0%;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: vars.$color-dark;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: vars.$color-primary;
+        border-radius: 10px;
+    }
 }
 
 // GHOST DETECTOR
