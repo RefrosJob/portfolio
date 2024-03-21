@@ -37,7 +37,7 @@ export default function NavBar(): JSX.Element {
                     </ul>
                 </div>
             </div>
-            <a className={styles.title} href="/">
+            <a className={styles.title} href="/portfolio/">
                 Portfolio
             </a>
         </nav>
